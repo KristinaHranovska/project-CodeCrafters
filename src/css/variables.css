@@ -1,0 +1,7 @@
+:root {
+    --black: #121212;
+    --white: #FFF;
+    --brown: #BEA69E;
+    --gradient: linear-gradient(180deg, #060707 0%, #1D1D1D 100%);
+    --fill: #1D1D1D;
+}

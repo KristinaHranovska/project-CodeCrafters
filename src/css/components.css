@@ -1,0 +1,42 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'DM Sans', sans-serif;
+    background-color: var(--black, #121212);
+    font-size: 16px;
+}
+
+.accent {
+    color: var(--brown);
+}
+
+.container {
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 320px) {
+    .container {
+        max-width: 335px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 704px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .container {
+        max-width: 1080px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .container {
+        max-width: 1240px;
+    }
+}
