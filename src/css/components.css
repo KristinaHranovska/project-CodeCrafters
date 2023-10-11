@@ -17,6 +17,19 @@ body {
     margin: 0 auto;
 }
 
+.section {
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+.general-title {
+    color: var(--white);
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 1.12;
+    letter-spacing: -0.12em;
+}
+
 @media screen and (min-width: 320px) {
     .container {
         max-width: 335px;
