@@ -1,0 +1,52 @@
+.hero {
+    margin-top: 80px;
+    margin-bottom: 75px;
+}
+
+.hero-bg {
+    background-color: var(--fill);
+    border-radius: 30px;
+
+    padding: 0 50px;
+}
+
+.hero-title {
+    max-width: 563px;
+
+    font-size: 64px;
+    font-weight: 500;
+    line-height: 1.06;
+    letter-spacing: -0.01em;
+
+    margin-bottom: 20px;
+}
+
+.hero-text {
+    max-width: 418px;
+
+    font-size: 14px;
+    line-height: 1.28;
+    letter-spacing: -0.02em;
+
+    margin-bottom: 136px;
+}
+
+.hero-link {
+    line-height: 1.25;
+    /* 125% */
+    letter-spacing: -0.04em;
+}
+
+.hero-reviews {
+    color: var(--color-alfa);
+    line-height: 1.25;
+    letter-spacing: -0.04em;
+    margin-bottom: 8px;
+}
+
+.hro-amount {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.25;
+    letter-spacing: -0.04em;
+}
