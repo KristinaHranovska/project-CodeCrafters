@@ -1,0 +1,32 @@
+
+.marquee {
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.advertisement-title {
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 1.14;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+}
+
+@media only screen and (min-width: 768px) {
+  .advertisement-title {
+    font-size: 40px;
+    line-height: 1.25;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .advertisement-title {
+    font-size: 59px;
+    line-height: 1.08;
+  }
+}
+
+.advertisement-accent {
+  color: var(--white);
+}
