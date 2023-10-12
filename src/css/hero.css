@@ -5,7 +5,6 @@
     }
 
     .hero-bg {
-        max-width: 335px;
         background-color: var(--fill);
         border-radius: 30px;
         padding: 40px 20px 0 20px;
