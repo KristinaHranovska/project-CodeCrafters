@@ -33,9 +33,17 @@
     display: flex;
 }
 
-.reviews-images {}
+.container-reviews-person {
+    margin-left: 10px;
+}
 
-.review-subtitle {
+.reviews-images {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.reviews-subtitle {
     color: var(--white);
     font-size: 20px;
     font-weight: 500;
@@ -126,6 +134,7 @@
 
 @media screen and (min-width: 1280px) {
     .container {
+        padding: 0 15px;
         max-width: 1080px;
     }
 
