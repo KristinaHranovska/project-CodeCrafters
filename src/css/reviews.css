@@ -72,7 +72,7 @@
 .reviews-icon-dark {
     max-width: 16px;
     max-height: 16px;
-    fill: #414141;
+    fill: var(--fill-stroke);
 }
 
 .text-reviews {
