@@ -1,0 +1,104 @@
+/* Базові стилі Mobile first */
+
+ol {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  flex-wrap: wrap;
+  gap: 20px;
+  display: flex;
+}
+
+.container-our-courses {
+    margin-bottom: 40px;
+}
+
+.general-title {
+    margin-bottom: 20px;
+    display: inline-block;
+    text-transform: capitalize;
+}
+
+.text {
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 14px;
+    line-height: 1.28; /* 128.571% */
+    letter-spacing: -0.02em;
+    width: 335px;
+}
+
+.our-courses-list {
+    width: 335px;
+    height: 398px;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background: linear-gradient(180deg, #060707 0%, #1d1d1d 100%);
+    padding: 28px;
+
+}
+
+.course-numbers {
+  color: rgba(255, 255, 255, 0.4);
+  font-family: DM Sans;
+  font-size: 14px;
+  line-height: 1.28; /* 128.571% */
+  letter-spacing: -0.02em;
+}
+
+.course-title {
+  color: #fff;
+  font-family: DM Sans;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1.14; /* 114.286% */
+  margin-bottom: 164px;
+  display: inline-block;
+  width: 275px;
+  height: 64px;
+}
+
+.course-description {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: DM Sans;
+  font-size: 14px;
+  line-height: 1.28; 
+  letter-spacing: -0.02em;
+  width: 279px;
+}
+
+.wrapper-card {
+    margin-bottom: 28px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 233px;
+    width: 279px;
+    height: 32px;
+}
+
+.arrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: var(--fill);
+    border: none;
+    padding: 6px;
+}
+
+.arrow:hover,
+.arrow:focus {
+    background-color: #BEA69E;
+}
+
+.icon {
+    stroke: #777777;
+}
+
+.icon:hover,
+.icon:focus {
+    stroke: #fff;
+}
