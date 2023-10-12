@@ -1,63 +1,114 @@
 <section class="hero">
   <div class="container">
     <div class="hero-bg">
-      <h1 class="hero-title">
-        Discover the magic of <span class="accent">photography</span> in our
-        school
-      </h1>
-      <p class="hero-text">
-        Our photography school offers an unforgettable journey, where you can
-        learn the basics of composition, master technical skills, translate your
-        unique ideas.
-      </p>
-      <div class="hero-reviews-thumb">
-        <div>
-          <div class="hero-img">
-            <img
-              class="hero-img-student-one"
-              src="./img/hero/student1.webp"
-              width="54"
-              height="54"
-              alt=""
-            />
-            <img
-              class="hero-img-student-two"
-              src="./img/hero/student2.webp"
-              width="54"
-              height="54"
-              alt=""
-            />
-            <img
-              class="hero-img-student-three"
-              src="./img/hero/student3.webp"
-              width="54"
-              height="54"
-              alt=""
-            />
+      <div class="hero-main-block">
+        <h1 class="hero-title">
+          Discover the magic of <span class="accent">photography</span> in our
+          school
+        </h1>
+        <p class="hero-text">
+          Our photography school offers an unforgettable journey, where you can
+          learn the basics of composition, master technical skills, translate
+          your unique ideas.
+        </p>
+        <div class="hero-reviews-thumb">
+          <div class="hero-reviews-link">
+            <div class="hero-img">
+              <picture class="hero-img-student-one">
+                <source
+                  srcset="
+                    ./img/hero/student1.webp    1x,
+                    ./img/hero/student1@2x.webp 2x
+                  "
+                  media="(min-width: 1280px)"
+                />
+                <source
+                  srcset="
+                    ./img/hero/student1_mob.webp    1x,
+                    ./img/hero/student1_mob@2x.webp 2x
+                  "
+                  media="(min-width: 320px)"
+                />
+                <img
+                  src="./img/hero/student1.webp"
+                  width="54"
+                  height="54"
+                  alt="student"
+                />
+              </picture>
+              <picture class="hero-img-student-two">
+                <source
+                  srcset="
+                    ./img/hero/student2.webp    1x,
+                    ./img/hero/student2@2x.webp 2x
+                  "
+                  media="(min-width: 1280px)"
+                />
+                <source
+                  srcset="
+                    ./img/hero/student2_mob.webp    1x,
+                    ./img/hero/student2_mob@2x.webp 2x
+                  "
+                  media="(min-width: 320px)"
+                />
+                <img
+                  src="./img/hero/student2.webp"
+                  width="54"
+                  height="54"
+                  alt="student"
+                />
+              </picture>
+              <picture class="hero-img-student-three">
+                <source
+                  srcset="
+                    ./img/hero/student3.webp    1x,
+                    ./img/hero/student3@2x.webp 2x
+                  "
+                  media="(min-width: 1280px)"
+                />
+                <source
+                  srcset="
+                    ./img/hero/student3_mob.webp    1x,
+                    ./img/hero/student3_mob@2x.webp 2x
+                  "
+                  media="(min-width: 320px)"
+                />
+                <img
+                  src="./img/hero/student3.webp"
+                  width="54"
+                  height="54"
+                  alt="student"
+                />
+              </picture>
+            </div>
+            <div class="hero-thumb">
+              <a href="#reviews">
+                <p class="hero-link">
+                  Our happy <br />
+                  students
+                </p>
+
+                <svg class="hero-icon-arrow" width="18" height="9">
+                  <use href="./img/icons/sprite.svg#icon-hero-arrow "></use>
+                </svg>
+              </a>
+            </div>
           </div>
-          <div class="hero-thumb">
-            <a class="hero-link">
-              Our happy <br />
-              students
-            </a>
-            <svg class="hero-icon-arrow" width="18" height="9">
-              <use href="./img/icons/sprite.svg#icon-hero-arrow "></use>
-            </svg>
-          </div>
-        </div>
-        <div class="hero-star-thumb">
-          <div class="hero-star">
-            <svg class="hero-icon-star" width="20" height="20">
-              <use href="./img/icons/sprite.svg#icon-hero-star"></use>
-            </svg>
-          </div>
-          <div>
-            <p class="hero-reviews">Reviews</p>
-            <p class="hero-amount">+1500</p>
+          <div class="hero-star-thumb">
+            <div class="hero-star">
+              <svg class="hero-icon-star" width="20" height="20">
+                <use href="./img/icons/sprite.svg#icon-hero-star"></use>
+              </svg>
+            </div>
+            <div>
+              <p class="hero-reviews">Reviews</p>
+              <p class="hero-amount">+1500</p>
+            </div>
           </div>
         </div>
       </div>
-      <picture>
+
+      <picture class="hero-picture">
         <source
           srcset="
             ./img/hero/hero-image.webp    1x,
@@ -79,7 +130,11 @@
           "
           media="(max-width: 320px)"
         />
-        <img src="./img/hero/hero-image.webp" alt="" width="397" />
+        <img
+          src="./img/hero/hero-image.webp"
+          alt="a red-haired man with a camera in his hands"
+          width="397"
+        />
       </picture>
     </div>
   </div>

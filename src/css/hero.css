@@ -1,105 +1,281 @@
+/**
+ |============================
+ | BACKGROUND IMAGE
+ |============================
+*/
+@media screen and (min-width: 320px) {
+    .wrapper {
+        background-image: url('../img/bg-graphic/bg-hero_mob.webp');
+    }
+
+    @media screen and (min-width: 320px) and (min-resolution: 192dpi) {
+        .wrapper {
+            background-image: url('../img/bg-graphic/bg-hero_mob@2x.webp');
+        }
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .wrapper {
+        background-image: url('../img/bg-graphic/bg-hero_tab.webp');
+
+    }
+
+    @media screen and (min-width: 768px) and (min-resolution: 192dpi) {
+        .wrapper {
+            background-image: url('../img/bg-graphic/bg-hero_tab@2x.webp');
+        }
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .wrapper {
+        background-image: url('../img/bg-graphic/bg-hero_1280.webp');
+
+    }
+
+    @media screen and (min-width: 1280px) and (min-resolution: 192dpi) {
+        .wrapper {
+            background-image: url('../img/bg-graphic/bg-hero_1280@2x.webp');
+        }
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .wrapper {
+        background-image: url('../img/bg-graphic/bg-hero_1440.webp');
+
+    }
+
+    @media screen and (min-width: 1440px) and (min-resolution: 192dpi) {
+        .wrapper {
+            background-image: url('../img/bg-graphic/bg-hero_1440@2x.webp');
+        }
+    }
+}
+
+
+
+.hero {
+    padding-top: 20px;
+    padding-bottom: 80px;
+}
+
+.hero-bg {
+    background-color: var(--fill);
+    border-radius: 30px;
+    padding: 40px 20px 0 20px;
+}
+
+.hero-title {
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 1.1;
+    letter-spacing: -0.04em;
+
+    margin-bottom: 20px;
+}
+
+.hero-title .accent {
+    font-style: italic;
+}
+
+.hero-text {
+    font-size: 14px;
+    line-height: 1.28;
+    letter-spacing: -0.02em;
+
+    margin-bottom: 40px;
+}
+
+.hero-reviews-thumb {
+    display: flex;
+    align-items: start;
+    gap: 40px;
+
+    margin-bottom: 30px;
+}
+
+.hero-img {
+    display: flex;
+
+    margin-bottom: 4px;
+}
+
+.hero-img-student-one {
+    z-index: 3;
+}
+
+.hero-img-student-two {
+    margin-left: -12px;
+    z-index: 2;
+}
+
+.hero-img-student-three {
+    margin-left: -12px;
+    z-index: 1;
+}
+
+.hero-thumb {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.hero-link {
+    font-size: 14px;
+    line-height: 1.28;
+    letter-spacing: -0.04em;
+}
+
+.hero-icon-arrow {
+    fill: var(--white);
+}
+
+.hero-star-thumb {
+    display: flex;
+    gap: 12px;
+}
+
+.hero-star {
+    width: 44px;
+    height: 44px;
+
+    background-color: var(--brown);
+    border-radius: 100px;
+
+    padding: 12px;
+}
+
+.hero-icon-star {
+    fill: transparent;
+    stroke: var(--black);
+}
+
+.hero-reviews {
+    color: var(--color-alfa);
+    font-size: 14px;
+    line-height: 1.28;
+    letter-spacing: -0.04em;
+    margin-bottom: 4px;
+}
+
+.hero-amount {
+    font-weight: 500;
+    line-height: 1.12;
+    letter-spacing: -0.04em;
+}
+
+/**
+     |============================
+     | TABLET PART
+     |============================
+    */
+
+@media screen and (min-width: 768px) {
     .hero {
-        margin-top: 20px;
-        margin-bottom: 80px;
+        padding-top: 40px;
+        padding-bottom: 100px;
     }
 
     .hero-bg {
-        background-color: var(--fill);
-        border-radius: 30px;
-        padding: 40px 20px 0 20px;
+        padding-top: 64px;
+        padding-left: 32px;
     }
 
     .hero-title {
-        font-size: 40px;
-        font-weight: 500;
-        line-height: 1.1;
-        letter-spacing: -0.04em;
-
-        margin-bottom: 20px;
+        max-width: 517px;
+        font-size: 60px;
+        line-height: 1.06;
+        letter-spacing: -0.02em;
     }
 
     .hero-text {
-        font-size: 14px;
-        line-height: 1.28;
-        letter-spacing: -0.02em;
-
-        margin-bottom: 40px;
+        max-width: 418px;
     }
 
     .hero-reviews-thumb {
-        display: flex;
-        align-items: start;
-        gap: 40px;
+        margin-bottom: 40px;
     }
 
-    .hero-img {
-        display: flex;
-
-        margin-bottom: 4px;
-    }
-
-    .hero-img-student-one {
-        z-index: 3;
-    }
-
-    .hero-img-student-two {
-        margin-left: -12px;
-        z-index: 2;
-    }
-
-    .hero-img-student-three {
-        margin-left: -12px;
-        z-index: 1;
-    }
-
-    .hero-thumb {
-        display: flex;
-        align-items: center;
-        gap: 4px;
-
-        margin-bottom: 31px;
-    }
-
-    .hero-link {
-        font-size: 14px;
-        line-height: 1.28;
-        letter-spacing: -0.04em;
-    }
-
-    .hero-icon-arrow {
-        fill: var(--white);
-    }
-
-    .hero-star-thumb {
+    .hero-reviews-link {
         display: flex;
         gap: 12px;
     }
 
-    .hero-star {
-        width: 44px;
-        height: 44px;
+    .hero-thumb {
+        align-items: flex-start;
+        flex-direction: column;
+        column-gap: 8px;
 
-        background-color: var(--brown);
-        border-radius: 100px;
-
-        padding: 12px;
+        margin-bottom: 0;
     }
 
-    .hero-icon-star {
-        fill: transparent;
-        stroke: var(--black);
+    .hero-star {
+        width: 50px;
+        height: 50px;
+
+        padding: 15px;
     }
 
     .hero-reviews {
-        color: var(--color-alfa);
-        font-size: 14px;
-        line-height: 1.28;
-        letter-spacing: -0.04em;
-        margin-bottom: 4px;
+        font-size: 16px;
+        line-height: 1.25;
+        margin-bottom: 8px;
     }
 
-    .hero-amount {
-        font-weight: 500;
-        line-height: 1.12;
-        letter-spacing: -0.04em;
+    .hero-picture {
+        display: flex;
+        justify-content: center;
     }
+}
+
+/**
+     |============================
+     | LAPTOP - 1280px
+     |============================
+    */
+
+@media screen and (min-width: 1280px) {
+    .hero {
+        padding-top: 80px;
+        padding-bottom: 150px;
+    }
+
+    .hero-bg {
+        display: flex;
+        gap: 20px;
+        padding: 80px 50px 0;
+    }
+
+    .hero-title {
+        max-width: 563px;
+        font-size: 64px;
+        letter-spacing: -0.01em;
+    }
+
+    .hero-text {
+        margin-bottom: 136px;
+    }
+
+    .hero-reviews-thumb {
+        margin-bottom: 0;
+    }
+
+    .hero-link {
+        font-size: 16px;
+        line-height: 1.25;
+    }
+
+    /**
+         |============================
+         | LAPTOP 1440px
+         |============================
+        */
+    @media screen and (min-width: 1440px) {
+        .hero-bg {
+            gap: 130px;
+            padding: 80px 100px 0 50px;
+        }
+    }
+}
