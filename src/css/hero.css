@@ -1,4 +1,3 @@
-@media screen and (min-width: 320px) {
     .hero {
         margin-top: 20px;
         margin-bottom: 80px;
@@ -104,73 +103,3 @@
         line-height: 1.12;
         letter-spacing: -0.04em;
     }
-}
-
-/* .hero {
-    margin-top: 80px;
-    margin-bottom: 75px;
-} */
-
-/* .hero-bg {
-    padding: 0 50px;
-} */
-
-/* .hero-title {
-    max-width: 563px;
-
-    font-size: 64px;
-    font-weight: 500;
-    line-height: 1.06;
-    letter-spacing: -0.01em;
-
-    margin-bottom: 20px;
-} */
-
-/* .hero-text {
-    max-width: 418px;
-
-    font-size: 14px;
-    line-height: 1.28;
-    letter-spacing: -0.02em;
-
-    margin-bottom: 136px;
-} */
-
-/* .hero-link {
-    line-height: 1.25;
-    letter-spacing: -0.04em;
-} */
-
-/* .hero-star {
-    width: 50px;
-    height: 50px;
-
-    background-color: var(--brown);
-    border-radius: 100px;
-
-    padding: 15px;
-}
-
-.hero-icon-arrow {
-    fill: var(--white);
-}
-
-
-.hero-icon-star {
-    fill: transparent;
-    stroke: var(--black);
-}
-
-.hero-reviews {
-    color: var(--color-alfa);
-    line-height: 1.25;
-    letter-spacing: -0.04em;
-    margin-bottom: 8px;
-}
-
-.hero-amount {
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.25;
-    letter-spacing: -0.04em;
-} */

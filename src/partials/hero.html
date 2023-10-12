@@ -59,12 +59,27 @@
       </div>
       <picture>
         <source
-          srcset="./images/ 1x, ./images/ 2x"
+          srcset="
+            ./img/hero/hero-image.webp    1x,
+            ./img/hero/hero-image@2x.webp 2x
+          "
           media="(min-width: 1280px)"
         />
-        <source srcset="./images/ 1x, ./images/ 2x" media="(min-width: px)" />
-        <source srcset="./images/ 1x, ./images/ 2x" media="(max-width: px)" />
-        <img src="../img/hero/hero-image.webp" alt="" width="397" />
+        <source
+          srcset="
+            ./img/hero/hero-image_tab.webp    1x,
+            ./img/hero/hero-image_tab@2x.webp 2x
+          "
+          media="(min-width: 768px)"
+        />
+        <source
+          srcset="
+            ./img/hero/hero-image_mob.webp    1x,
+            ./img/hero/hero-image_mob@2x.webp 2x
+          "
+          media="(max-width: 320px)"
+        />
+        <img src="./img/hero/hero-image.webp" alt="" width="397" />
       </picture>
     </div>
   </div>
