@@ -27,7 +27,6 @@
 }
 
 .about-us-photo {
-  height: 209px;
   width: 335px;
   display: block;
 }
@@ -68,7 +67,6 @@
 
   .about-us-photo {
     width: 704px;
-    height: 340px;
   }
 }
 
@@ -88,7 +86,6 @@
   }
 
   .about-us-photo {
-    height: 260px;
     width: 488px;
   }
 }
@@ -106,7 +103,6 @@
   }
 
   .about-us-photo {
-    height: 240px;
     width: 560px;
   }
 }
