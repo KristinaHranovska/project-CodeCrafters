@@ -5,14 +5,36 @@
       <div class="about-us-picture">
         <picture class="about-us-image">
           <source
-            media="(min-width: 768px)"
-            srcset="./img/aboutus.png 1x, ./img/aboutus.png 2x"
+            media="(max-width: 767px)"
+            srcset="
+              ../img/about-us/about-us_mob.webp    1x,
+              ../img/about-us/about-us_mob@2x.webp 2x
+            "
           />
-          <source media="(min-width: 1180px)" srcset="1x, 2x" />
-          <source media="(min-width: 1440px)" srcset="1x, 2x" />
+          <source
+            media="(max-width: 1279px)"
+            srcset="
+              ../img/about-us/about-us_tab.webp    1x,
+              ../img/about-us/about-us_tab@2x.webp 2x
+            "
+          />
+          <source
+            media="(max-width: 1439px)"
+            srcset="
+              ../img/about-us/about-us_1280.webp    1x,
+              ../img/about-us/about-us_1280@2x.webp 2x
+            "
+          />
+          <source
+            media="(min-width: 1440px)"
+            srcset="
+              ../img/about-us/about-1440.webp       1x,
+              ../img/about-us/about-us_1440@2x.webp 2x
+            "
+          />
           <img
-            class="img"
-            src="./img/aboutus.png"
+            class="about-us-photo"
+            src="../img/about-us/about-us_tab.webp "
             alt="Picture of camera"
             width="340px"
           />

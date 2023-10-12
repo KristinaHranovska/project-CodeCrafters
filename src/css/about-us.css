@@ -1,8 +1,6 @@
 .general-title {
   font-size: 28px;
-  font-weight: 500;
   line-height: 1.14;
-  letter-spacing: -0.04em;
 }
 
 .about-us-text {
@@ -15,8 +13,6 @@
 
 .about-us-container {
   max-width: 320px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .about-us-picture {
@@ -28,6 +24,16 @@
 
 .about-us-text:last-child {
   padding-bottom: 0;
+}
+
+.about-us-photo {
+  height: 209px;
+  width: 335px;
+  display: block;
+}
+
+.container {
+  padding: 0 20px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -59,6 +65,11 @@
     margin-top: 50px;
     margin-bottom: 50px;
   }
+
+  .about-us-photo {
+    width: 704px;
+    height: 340px;
+  }
 }
 
 @media only screen and (min-width: 1280px) {
@@ -75,9 +86,14 @@
   .about-us-paragraph {
     column-gap: 20px;
   }
+
+  .about-us-photo {
+    height: 260px;
+    width: 488px;
+  }
 }
 
-@media only screen and (max-width: 1400px) {
+@media only screen and (min-width: 1400px) {
   .about-us-container {
     max-width: 1240px;
     gap: 50px;
@@ -87,5 +103,10 @@
   }
   .about-us-paragraph {
     column-gap: 40px;
+  }
+
+  .about-us-photo {
+    height: 240px;
+    width: 560px;
   }
 }
