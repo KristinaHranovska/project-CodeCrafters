@@ -33,8 +33,17 @@
 
 .hero-link {
     line-height: 1.25;
-    /* 125% */
     letter-spacing: -0.04em;
+}
+
+.hero-icon-arrow {
+    fill: var(--white);
+}
+
+
+.hero-icon-star {
+    fill: transparent;
+    stroke: var(--black);
 }
 
 .hero-reviews {
@@ -44,7 +53,7 @@
     margin-bottom: 8px;
 }
 
-.hro-amount {
+.hero-amount {
     font-size: 16px;
     font-weight: 500;
     line-height: 1.25;
