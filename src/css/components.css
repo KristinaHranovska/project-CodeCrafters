@@ -13,11 +13,6 @@ body {
     color: var(--brown);
 }
 
-.container {
-    padding: 0 15px;
-    margin: 0 auto;
-}
-
 .section {
     padding-top: 75px;
     padding-bottom: 75px;
@@ -35,27 +30,30 @@ body {
     letter-spacing: -0.04em;
 }
 
-@media screen and (min-width: 320px) {
+.container {
+    min-width: 320px;
+    max-width: 375px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+@media only screen and (min-width: 768px) {
     .container {
-        min-width: 320px;
-        max-width: 375px;
+        max-width: 768px;
+        padding: 0 32px;
     }
 }
 
-@media screen and (min-width: 768px) {
+@media only screen and (min-width: 1280px) {
     .container {
-        max-width: 704px;
+        max-width: 1110px;
+        padding: 0 15px;
     }
 }
 
-@media screen and (min-width: 1280px) {
+@media only screen and (min-width: 1440px) {
     .container {
-        max-width: 1080px;
-    }
-}
-
-@media screen and (min-width: 1440px) {
-    .container {
-        max-width: 1240px;
+        max-width: 1270px;
+        padding: 0 15px;
     }
 }
