@@ -1,14 +1,16 @@
 .general-title {
   font-size: 28px;
   line-height: 1.14;
+  margin-bottom: 40px;
 }
 
 .about-us-text {
-  color: var(--white);
-  font-weight: 400;
+  /* color: var(--white);
+  font-weight: 400; */
+  font-size: 14px;
   line-height: 1.25;
   letter-spacing: -0.02em;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .about-us-container {
@@ -16,7 +18,6 @@
 }
 
 .about-us-picture {
-  margin-top: 40px;
   margin-bottom: 40px;
   background-color: var(--black);
   border-radius: 1000px;
@@ -31,14 +32,15 @@
   display: block;
 }
 
-.container {
+/* .container {
   padding: 0 20px;
-}
+} */
 
 @media only screen and (min-width: 768px) {
   .general-title {
     font-size: 48px;
     line-height: 1.12;
+    margin-bottom: 50px;
   }
   .about-us-container {
     max-width: 704px;
@@ -52,16 +54,11 @@
 
   .about-us-text {
     width: 280px;
-  }
-  .container {
-    padding: 0;
-  }
-  .about-us-text {
-    padding-bottom: 0;
+    margin-bottom: 0;
+    font-size: 16px;
   }
 
   .about-us-picture {
-    margin-top: 50px;
     margin-bottom: 50px;
   }
 
@@ -87,6 +84,7 @@
 
   .about-us-photo {
     width: 488px;
+    height: 260px;
   }
 }
 
