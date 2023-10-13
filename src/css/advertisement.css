@@ -1,12 +1,12 @@
 .advertisement-section {
-  padding: 20px 15px;
+  padding: 20px 0;
   border-top: 1px solid #ffffff33;
   border-bottom: 1px solid #ffffff33;
 }
 
 @media only screen and (min-width: 768px) {
   .advertisement-section {
-    padding: 24px 30px;
+    padding: 24px 0;
   }
 }
 
@@ -23,7 +23,7 @@
   text-transform: uppercase;
   min-width: 100%;
   animation-name: marquee-mobile;
-  animation-duration: 5s;
+  animation-duration: 10s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
   padding-left: 100%;
