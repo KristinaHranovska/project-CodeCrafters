@@ -1,0 +1,100 @@
+.general-title {
+  font-size: 28px;
+  line-height: 1.14;
+  margin-bottom: 40px;
+}
+
+.about-us-text {
+  font-size: 14px;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+  margin-bottom: 20px;
+}
+
+.about-us-container {
+  max-width: 320px;
+}
+
+.about-us-picture {
+  margin-bottom: 40px;
+  background-color: var(--black);
+  border-radius: 1000px;
+}
+
+.about-us-text:last-child {
+  padding-bottom: 0;
+}
+
+.about-us-photo {
+  width: 335px;
+  display: block;
+}
+
+@media only screen and (min-width: 768px) {
+  .general-title {
+    font-size: 48px;
+    line-height: 1.12;
+    margin-bottom: 50px;
+  }
+  .about-us-container {
+    max-width: 704px;
+  }
+
+  .about-us-paragraph {
+    display: flex;
+    text-align: left;
+    column-gap: 40px;
+  }
+
+  .about-us-text {
+    width: 280px;
+    margin-bottom: 0;
+    font-size: 16px;
+  }
+
+  .about-us-picture {
+    margin-bottom: 50px;
+  }
+
+  .about-us-photo {
+    width: 704px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .about-us-container {
+    max-width: 1080px;
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 40px;
+  }
+
+  .about-us-picture {
+    margin: 0;
+  }
+  .about-us-paragraph {
+    column-gap: 20px;
+  }
+
+  .about-us-photo {
+    width: 488px;
+    height: 260px;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  .about-us-container {
+    max-width: 1240px;
+    gap: 50px;
+  }
+  .about-us-picture {
+    margin: 0;
+  }
+  .about-us-paragraph {
+    column-gap: 40px;
+  }
+
+  .about-us-photo {
+    width: 560px;
+  }
+}
