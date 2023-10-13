@@ -1,8 +1,18 @@
+.advertisement-section {
+  padding: 20px 15px;
+  border-top: 1px solid #ffffff33;
+  border-bottom: 1px solid #ffffff33;
+}
+
+@media only screen and (min-width: 768px) {
+  .advertisement-section {
+    padding: 24px 30px;
+  }
+}
 
 .marquee {
-    width: 100%;
-    white-space: nowrap;
-    overflow: hidden;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 .advertisement-title {
@@ -11,12 +21,39 @@
   line-height: 1.14;
   letter-spacing: -0.02em;
   text-transform: uppercase;
+  min-width: 100%;
+  animation-name: marquee-mobile;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  padding-left: 100%;
+}
+
+@keyframes marquee-mobile {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-320%);
+  }
 }
 
 @media only screen and (min-width: 768px) {
   .advertisement-title {
     font-size: 40px;
     line-height: 1.25;
+    animation-name: marquee-tablet;
+  }
+
+  @keyframes marquee-tablet {
+    0% {
+      transform: translateX(0);
+    }
+
+    100% {
+      transform: translateX(-230%);
+    }
   }
 }
 
@@ -24,6 +61,17 @@
   .advertisement-title {
     font-size: 59px;
     line-height: 1.08;
+    animation-name: marquee-desk;
+  }
+
+  @keyframes marquee-desk {
+    0% {
+      transform: translateX(0);
+    }
+
+    100% {
+      transform: translateX(-200%);
+    }
   }
 }
 
