@@ -1,0 +1,218 @@
+.sign-up-button {
+    background-color: var(--white);
+    color: var(--black);
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    border-radius: 12px;
+    border: none;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    margin-bottom: 20px;
+    width: 100%;
+    height: 48px;
+}
+.sign-up-button:hover,
+.sign-up-button:focus {
+    background-color: var(--fill);
+    color: var(--brown);
+}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.input-sign-up {
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    letter-spacing: 0.04em;
+    line-height: 1.17;
+    border-radius: 12px;
+    background-color: transparent;
+    padding: 14px 18px;
+    outline: transparent;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    width: 100%;
+    height: 46px;
+    margin-bottom: 8px;
+    color: var(--white);
+}
+
+.input-sign-up:focus {
+    border-color: var(--white);
+}
+input:focus::placeholder {
+    color: var(--white);
+}
+.textarea-sign-up {
+    width: 100%;
+    height: 112px;
+    letter-spacing: 0.04em;
+    line-height: 1.17;
+    background-color: transparent;
+    padding: 20px 18px;
+    outline: transparent;
+    resize: none;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 12px;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    margin-bottom: 40px;
+    color: var(--white);
+}
+
+.textarea-sign-up:focus {
+    border-color: var(--white);
+}
+textarea:focus::placeholder {
+    color: var(--white);
+}
+.link-sign-up {
+    text-decoration-line: underline;
+}
+
+.par-sign-up-first {
+    margin-bottom: 40px;
+    font-size: 14px;
+}
+
+.par-sign-up-second {
+    color: rgba(255, 255, 255, 0.5);
+    line-height: 1.17;
+    font-size: 12px;
+    letter-spacing: -0.02em;
+}
+
+.image-first-sign-up {
+    height: 288px;
+    border-radius: 100px;
+    margin-top: 252px;
+    position: relative;
+    background-color: var(--brown);
+}
+
+.image-second-sign-up {
+    height: 540px;
+    position: relative;
+    border-radius: 200px;
+    background-color: var(--fill);
+}
+.image-sign-up {
+    position: absolute;
+}
+.image-sign-upp {
+    position: absolute;
+}
+.photos-sign-up {
+    flex-direction: row;
+    gap: 20px;
+}
+
+.sign-up-thumb {
+    display: flex;
+    flex-direction: row;
+}
+
+.general-title {
+    margin-bottom: 20px;
+    font-weight: 500;
+    font-size: 28px;
+}
+
+@media screen and (min-width: 768px) {
+    .sign-up {
+        width: 480px;
+    }
+    .sign-up-thumb {
+        justify-content: left;
+    }
+    .sign-up-button {
+        height: 60px;
+    }
+
+    .input-sign-up {
+        padding: 20px 18px;
+        margin-bottom: 14px;
+    }
+
+    .textarea-sign-up {
+        height: 120px;
+        padding: 20px 18px;
+    }
+
+    .general-title {
+        font-size: 48px;
+        font-weight: 500;
+    }
+
+    .par-sign-up-first {
+        font-size: 16px;
+    }
+
+    .par-sign-up-second {
+        font-size: 14px;
+        line-height: 1.28;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .photos-sign-up {
+        display: flex;
+    }
+
+    .sign-up-thumb {
+        justify-content: center;
+        gap: 60px;
+    }
+
+    .image-sign-upp {
+        width: 203px;
+        height: 202px;
+        top: 76px;
+        right: 19px;
+    }
+
+    .image-sign-up {
+        width: 240px;
+        height: 296px;
+        top: 156px;
+        left: 50px;
+    }
+    .image-first-sign-up {
+        width: 180px;
+    }
+    .image-second-sign-up {
+        width: 340px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .sign-up-thumb {
+        gap: 200px;
+    }
+
+    .image-sign-upp {
+        width: 215px;
+        height: 215px;
+        top: 62px;
+        right: 18px;
+    }
+    .image-sign-up {
+        width: 254px;
+        height: 313px;
+        top: 139px;
+        left: 48px;
+    }
+    .image-first-sign-up {
+        width: 190px;
+    }
+    .image-second-sign-up {
+        width: 350px;
+    }
+}

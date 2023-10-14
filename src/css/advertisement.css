@@ -1,0 +1,64 @@
+.advertisement-section {
+  padding: 20px 0;
+  border-top: 1px solid #ffffff33;
+  border-bottom: 1px solid #ffffff33;
+}
+
+@media only screen and (min-width: 768px) {
+  .advertisement-section {
+    padding: 24px 0;
+  }
+}
+
+.marquee {
+  display: flex;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.advertisement-title {
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 1.14;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  min-width: 100%;
+  flex-shrink: 0;
+
+  padding: 0 15px;
+
+  animation-name: marquee-mobile;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes marquee-mobile {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .advertisement-title {
+    font-size: 40px;
+    line-height: 1.25;
+    animation-duration: 6s;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .advertisement-title {
+    font-size: 59px;
+    line-height: 1.08;
+    animation-duration: 8s;
+  }
+}
+
+.advertisement-accent {
+  color: var(--white);
+}
