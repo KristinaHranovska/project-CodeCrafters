@@ -119,8 +119,7 @@ textarea:focus::placeholder {
 }
 
 .photos-sign-up {
-    flex-direction: row;
-    gap: 20px;
+    display: none;
 }
 
 .sign-up-thumb {
@@ -181,6 +180,11 @@ textarea:focus::placeholder {
     .sign-up-thumb {
         justify-content: center;
         gap: 60px;
+    }
+
+    .photos-sign-up {
+        flex-direction: row;
+        gap: 20px;
     }
 
     .image-sign-upp {
