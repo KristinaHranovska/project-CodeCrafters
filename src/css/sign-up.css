@@ -64,6 +64,7 @@ input:focus::placeholder {
     border-radius: 12px;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     margin-bottom: 40px;
+    color: var(--white);
 }
 
 .textarea-sign-up:focus {
@@ -78,6 +79,7 @@ textarea:focus::placeholder {
 
 .par-sign-up-first {
     margin-bottom: 40px;
+    font-size: 14px;
 }
 
 .par-sign-up-second {
