@@ -44,6 +44,7 @@
     font-size: 40px;
     line-height: 1.25;
     animation-name: marquee-tablet;
+    animation-duration: 15s;
   }
 
   @keyframes marquee-tablet {
@@ -62,6 +63,7 @@
     font-size: 59px;
     line-height: 1.08;
     animation-name: marquee-desk;
+    animation-duration: 20s;
   }
 
   @keyframes marquee-desk {
