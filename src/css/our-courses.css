@@ -118,9 +118,6 @@ li::before {
 
   .list {
     flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
   }
 
   .text {
@@ -131,8 +128,6 @@ li::before {
   }
 
   .course-title {
-    width: 278px;
-    height: 64px;
     margin-bottom: 180px;
   }
 
@@ -154,6 +149,10 @@ li::before {
 
   .list-item {
     width: calc((100% - 20px) / 2);
+  }
+
+  .general-title {
+    margin-bottom: 0;
   }
 }
 
