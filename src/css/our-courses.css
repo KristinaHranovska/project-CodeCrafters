@@ -22,7 +22,7 @@ li::before {
   color: rgba(255, 255, 255, 0.4);
   font-family: DM Sans;
   font-size: 14px;
-  line-height: 1.28; /* 128.571% */
+  line-height: 1.28;
   letter-spacing: -0.02em;
 }
 
@@ -37,14 +37,14 @@ li::before {
   margin-bottom: 40px;
 }
 
-.general-title {
+.container-our-courses .general-title {
   margin-bottom: 20px;
   text-transform: capitalize;
 }
 
 .text {
   font-size: 14px;
-  line-height: 1.28; /* 128.571% */
+  line-height: 1.28;
   letter-spacing: -0.02em;
 }
 
@@ -60,14 +60,14 @@ li::before {
   color: rgba(255, 255, 255, 0.4);
   font-family: DM Sans;
   font-size: 14px;
-  line-height: 1.28; /* 128.571% */
+  line-height: 1.28;
   letter-spacing: -0.02em;
 }
 
 .course-title {
   font-size: 28px;
   font-weight: 500;
-  line-height: 1.14; /* 114.286% */
+  line-height: 1.14;
   margin-bottom: 164px;
 }
 
@@ -151,7 +151,7 @@ li::before {
     width: calc((100% - 20px) / 2);
   }
 
-  .general-title {
+  .container-our-courses .general-title {
     margin-bottom: 0;
   }
 }
