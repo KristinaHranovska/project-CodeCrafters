@@ -46,6 +46,7 @@ li::before {
   margin-bottom: 20px;
   display: inline-block;
   text-transform: capitalize;
+  width: 155px;
 }
 
 .text {
@@ -111,8 +112,6 @@ li::before {
   top: 28px;
   right: 28px;
   cursor: pointer;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .arrow:hover,
@@ -121,12 +120,12 @@ li::before {
 }
 
 .icon {
-  stroke: #777777;
+  fill: #777777;
 }
 
 .icon:hover,
 .icon:focus {
-  stroke: #fff;
+  fill: #fff;
 }
 
 
@@ -142,6 +141,7 @@ li::before {
 
   .general-title {
     margin-bottom: 26px;
+    width: 265px;
   }
 
   .list {
@@ -171,7 +171,6 @@ li::before {
   .arrow {
     top: 32px;
     right: 32px;
-    margin-bottom: 46px
   }
 
   .course-description {
@@ -226,5 +225,25 @@ li::before {
 }
 
 @media only screen and (min-width: 1440px) {
+  .text {
+    width: 565px;
+}
+
+.list-item {
+  width: 400px;
+  height: 452px;
+}
+
+.course-title {
+  margin-bottom: 200px;
+}
+
+.course-description {
+  width: 336px;
+  height: 60px;
+}
+
+
+
 
 }
