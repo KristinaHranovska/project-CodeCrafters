@@ -57,7 +57,7 @@
 
 
 .hero {
-    padding-top: 20px;
+    padding-top: 90px;
     padding-bottom: 80px;
 }
 
@@ -174,7 +174,7 @@
 
 @media screen and (min-width: 768px) {
     .hero {
-        padding-top: 40px;
+        padding-top: 120px;
         padding-bottom: 100px;
     }
 
@@ -238,7 +238,7 @@
 
 @media screen and (min-width: 1280px) {
     .hero {
-        padding-top: 80px;
+        padding-top: 160px;
         padding-bottom: 150px;
     }
 
