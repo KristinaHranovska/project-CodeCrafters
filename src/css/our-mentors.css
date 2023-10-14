@@ -1,36 +1,7 @@
-/* .mentors-title {
-    text-transform: capitalize;
-}
-
-.mentors-list {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 100px;
-}
-
-.mentors-info {
-    padding-top: 16px;
-    text-align: center;
-}
-
-.mentor-name {
-    font-size: 28px;
-    line-height: 1.14;
-}
-
-.mentor-experience {
-    color: rgba(255, 255, 255, 0.50);
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 1.28;
-    letter-spacing: -0.02em;
-} */
-
 .mentors-title {
     font-size: 28px;
     line-height: 1.14;
-    letter-spacing: -0.04;
+    letter-spacing: -0.04em;
     text-transform: capitalize;
     margin-bottom: 40px;
 }
@@ -42,11 +13,8 @@
     gap: 40px;
 }
 
-.mentors-item {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 16px;
+.mentor-img {
+    margin-bottom: 16px;
 }
 
 .mentors-info {
@@ -62,7 +30,6 @@
 .mentor-experience {
     color: var(--color-alfa);
     font-size: 12px;
-    font-weight: 400;
     line-height: 1.33;
     letter-spacing: -0.02em;
 }
