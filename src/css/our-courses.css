@@ -5,13 +5,13 @@ ol {
   margin: 0;
 }
 
-li {
+.list-item {
   counter-increment: count;
   list-style-type: none;
   position: relative;
 }
 
-li::before {
+.list-item::before {
   content: counter(count, decimal-leading-zero);
   width: 18px;
   height: 18px;
@@ -131,7 +131,7 @@ li::before {
     margin-bottom: 180px;
   }
 
-  li::before {
+  .list-item::before {
     width: 14px;
     height: 18px;
   }
@@ -177,7 +177,7 @@ li::before {
     width: 283px;
   }
 
-  li::before {
+  .list-item::before {
     margin-bottom: 46px;
   }
 }

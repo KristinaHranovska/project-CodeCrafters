@@ -128,7 +128,7 @@ textarea:focus::placeholder {
     flex-direction: row;
 }
 
-.general-title {
+.sign-up .general-title {
     margin-bottom: 20px;
     font-weight: 500;
     font-size: 28px;
@@ -158,7 +158,7 @@ textarea:focus::placeholder {
         padding: 20px 18px;
     }
 
-    .general-title {
+    .sign-up .general-title {
         font-size: 48px;
         font-weight: 500;
     }
