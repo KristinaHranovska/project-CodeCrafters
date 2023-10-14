@@ -25,6 +25,8 @@
   min-width: 100%;
   flex-shrink: 0;
 
+  padding: 0 15px;
+
   animation-name: marquee-mobile;
   animation-duration: 5s;
   animation-timing-function: linear;
