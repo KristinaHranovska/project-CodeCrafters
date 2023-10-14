@@ -12,11 +12,13 @@
     width: 100%;
     height: 48px;
 }
+
 .sign-up-button:hover,
 .sign-up-button:focus {
     background-color: var(--fill);
     color: var(--brown);
 }
+
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -48,9 +50,11 @@
 .input-sign-up:focus {
     border-color: var(--white);
 }
+
 input:focus::placeholder {
     color: var(--white);
 }
+
 .textarea-sign-up {
     width: 100%;
     height: 112px;
@@ -70,9 +74,11 @@ input:focus::placeholder {
 .textarea-sign-up:focus {
     border-color: var(--white);
 }
+
 textarea:focus::placeholder {
     color: var(--white);
 }
+
 .link-sign-up {
     text-decoration-line: underline;
 }
@@ -103,12 +109,15 @@ textarea:focus::placeholder {
     border-radius: 200px;
     background-color: var(--fill);
 }
+
 .image-sign-up {
     position: absolute;
 }
+
 .image-sign-upp {
     position: absolute;
 }
+
 .photos-sign-up {
     flex-direction: row;
     gap: 20px;
@@ -119,19 +128,22 @@ textarea:focus::placeholder {
     flex-direction: row;
 }
 
-.general-title {
+.sign-up .general-title {
     margin-bottom: 20px;
     font-weight: 500;
     font-size: 28px;
+    text-transform: capitalize;
 }
 
 @media screen and (min-width: 768px) {
     .sign-up {
         width: 480px;
     }
+
     .sign-up-thumb {
         justify-content: left;
     }
+
     .sign-up-button {
         height: 60px;
     }
@@ -146,7 +158,7 @@ textarea:focus::placeholder {
         padding: 20px 18px;
     }
 
-    .general-title {
+    .sign-up .general-title {
         font-size: 48px;
         font-weight: 500;
     }
@@ -184,9 +196,11 @@ textarea:focus::placeholder {
         top: 156px;
         left: 50px;
     }
+
     .image-first-sign-up {
         width: 180px;
     }
+
     .image-second-sign-up {
         width: 340px;
     }
@@ -203,15 +217,18 @@ textarea:focus::placeholder {
         top: 62px;
         right: 18px;
     }
+
     .image-sign-up {
         width: 254px;
         height: 313px;
         top: 139px;
         left: 48px;
     }
+
     .image-first-sign-up {
         width: 190px;
     }
+
     .image-second-sign-up {
         width: 350px;
     }

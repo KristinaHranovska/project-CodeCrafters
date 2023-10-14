@@ -1,0 +1,73 @@
+.mentors-title {
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: -0.04em;
+    text-transform: capitalize;
+    margin-bottom: 40px;
+}
+
+.mentors-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+}
+
+.mentor-img {
+    margin-bottom: 16px;
+}
+
+.mentors-info {
+    text-align: center;
+}
+
+.mentor-name {
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 500;
+    margin-bottom: 4px;
+}
+
+.mentor-experience {
+    color: var(--color-alfa);
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: -0.02em;
+}
+
+@media only screen and (min-width: 768px) {
+    .section {
+        padding: 50px 0;
+    }
+
+    .mentors-title {
+        font-size: 48px;
+        line-height: 1.12;
+        margin-bottom: 50px;
+    }
+
+    .mentors-list {
+        gap: 93px 100px;
+    }
+
+    .mentor-name {
+        font-size: 28px;
+        line-height: 1.14;
+    }
+
+    .mentor-experience {
+        font-size: 14px;
+        line-height: 1.28;
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    .section {
+        padding: 75px 0;
+    }
+
+    .mentors-list {
+        gap: 100px;
+    }
+}
