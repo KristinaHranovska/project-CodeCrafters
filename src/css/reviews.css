@@ -1,4 +1,4 @@
-.reviews-title {
+.general-title {
     margin-bottom: 40px;
     font-size: 28px;
     line-height: 1.14;
@@ -35,7 +35,6 @@
 }
 
 .reviews-subtitle {
-    color: var(--white);
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
@@ -46,6 +45,7 @@
     color: rgba(255, 255, 255, 0.50);
     font-size: 12px;
     letter-spacing: -0.02em;
+    line-height: 1.33;
 }
 
 .reviews-icons-list {
@@ -68,7 +68,6 @@
 
 .text-reviews {
     font-size: 14px;
-    color: var(--white);
     line-height: 1.28;
     letter-spacing: -0.02em;
 }
@@ -98,10 +97,6 @@
         padding: 20px;
     }
 
-    .container-reviews {
-        margin-bottom: 20px;
-    }
-
     .reviews-subtitle {
         line-height: 1.4;
     }
@@ -123,7 +118,7 @@
 
     .text-reviews {
         line-height: 1.25;
-        letter-spacing: -0,04em;
+        letter-spacing: -0.04em;
     }
 
 }
@@ -147,10 +142,6 @@
         display: block;
     }
 
-    .container-reviews {
-        margin-bottom: 20px;
-    }
-
 }
 
 /* 1440px */
@@ -161,6 +152,6 @@
    }
 
    .text-reviews {
-      letter-spacing: -0,03em;
+      letter-spacing: -0.03em;
    }
  } 
