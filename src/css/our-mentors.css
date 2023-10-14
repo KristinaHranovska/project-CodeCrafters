@@ -1,5 +1,6 @@
 .mentors-title {
     font-size: 28px;
+    font-weight: 500;
     line-height: 1.14;
     letter-spacing: -0.04em;
     text-transform: capitalize;
@@ -24,6 +25,7 @@
 .mentor-name {
     font-size: 20px;
     line-height: 1.2;
+    font-weight: 500;
     margin-bottom: 4px;
 }
 
