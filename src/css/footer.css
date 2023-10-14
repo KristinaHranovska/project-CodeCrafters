@@ -19,7 +19,6 @@
     margin: 0;
 }
 .logo-contacts {
-
     margin-bottom: 40px;   
 }
 
@@ -53,14 +52,17 @@
 .social-networks:last-child, .links-anchor-items:last-child {
     margin-bottom: 0;
 }
-.footer-form {
+.social-networks:hover,
+.links-anchor-items:hover {
+    color: var(--brown, #BEA69E)
+}
+.container-form {
     display: flex;
     flex-wrap: nowrap;
     margin-bottom: 40px;
     align-items: center;
     gap: 8px;
     flex-grow: 1;
-    max-width: 320px;
 }
 .mail-input {
     width: 267px;
@@ -94,11 +96,10 @@
     }
 .bottom-text {
     display: flex;
-    gap: 72px;
-    width: 320px;
-}
+   }
 .privacy-policy {
     text-align: left;
+    margin-right: 72px;
 }
 .focus-frame {
     text-align: right;
@@ -113,13 +114,13 @@
 .footer-block {
     display: flex;
     gap: 59px;
+    }
+.privacy-policy {
+    margin-right: 399px;
 }
-.bottom-text {
-    display: flex;
-    width: 768px;
-    gap: 399px;
+.container-form {
+    margin-bottom: 133px;
 }
-
 .text-footer {
     font-size: 14px;
     font-weight: 400;
@@ -129,18 +130,11 @@
     width: 123px;
     height: 16px;
 }
-.links-footer {
-    gap: 24px;
-}
-.footer-form {
-    margin-bottom: 270px;
-    }
+
 .mail-input {
     width: 178px;
     }
-.logo-contacts {
-    margin-bottom: 0;
-   }
+
 .links-footer {
     gap: 25px;
     margin-bottom: 0;
@@ -160,13 +154,15 @@
 .footer-block {
     gap: 0;
 }
-.bottom-text {
-    width: 1280px;
-    gap: 773px;
+.privacy-policy {
+    margin-right: 773px;
 }
 .logo-contacts {
     margin-right: 285px;
-    
+    margin-bottom: 0;
+}
+.privacy-policy {
+    margin-right: 773px;
 }
 .links-footer {
     margin-right: 137px;
@@ -189,22 +185,18 @@
         padding-top: 50px;
         padding-bottom: 25px;
     }    
-.bottom-text {
-        gap: 870px;
-    }
-.container{
-    margin: 0 100px;
-}   
+
 .logo-contacts {
-        margin-right: 341px;
-    
-    }
+    margin-right: 341px;
+ }
     
 .links-footer {
-        gap: 100px;
-        margin-right: 191px;
+    gap: 100px;
+    margin-right: 193px;
     }
-    
+.privacy-policy {
+    margin-right: 935px;
+        }
   }
 @media screen and (min-width: 1400px) and (min-resolution: 192dpi) {
     .section-footer {
