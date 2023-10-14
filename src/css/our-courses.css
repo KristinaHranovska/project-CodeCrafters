@@ -142,8 +142,6 @@ li::before {
 
   .general-title {
     margin-bottom: 26px;
-
-
   }
 
   .list {
@@ -186,18 +184,45 @@ li::before {
   .list-item {
     width: 342px;
     height: 452px;
+    padding: 32px;
   }
 
   .list {
     margin-bottom: 100px;
   }
-  
-
-
 }
 
 @media only screen and (min-width: 1280px) {
-  
+  .container-our-courses {
+    gap: 410px;
+  }
+
+  .text {
+    width: 405px;
+  }
+
+  .list-item {
+    width: 347px;
+    height: 452px;
+
+  }
+
+  .list {
+    flex-wrap: nowrap;
+    margin-bottom: 150px;
+  }  
+
+  .course-title {
+    width: 265px;
+  }
+
+  .course-description {
+    width: 283px;
+  }
+
+  li::before {
+    margin-bottom: 46px;
+  }
 }
 
 @media only screen and (min-width: 1440px) {
