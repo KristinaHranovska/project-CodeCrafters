@@ -142,6 +142,10 @@
         display: block;
     }
 
+    .container-reviews-response {
+        gap: 10px;
+    }
+
 }
 
 /* 1440px */
