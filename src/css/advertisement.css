@@ -11,6 +11,7 @@
 }
 
 .marquee {
+  display: flex;
   white-space: nowrap;
   overflow: hidden;
 }
@@ -22,11 +23,12 @@
   letter-spacing: -0.02em;
   text-transform: uppercase;
   min-width: 100%;
+  flex-shrink: 0;
+
   animation-name: marquee-mobile;
-  animation-duration: 10s;
+  animation-duration: 5s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  padding-left: 100%;
 }
 
 @keyframes marquee-mobile {
@@ -35,7 +37,7 @@
   }
 
   100% {
-    transform: translateX(-320%);
+    transform: translateX(-100%);
   }
 }
 
@@ -43,18 +45,7 @@
   .advertisement-title {
     font-size: 40px;
     line-height: 1.25;
-    animation-name: marquee-tablet;
-    animation-duration: 15s;
-  }
-
-  @keyframes marquee-tablet {
-    0% {
-      transform: translateX(0);
-    }
-
-    100% {
-      transform: translateX(-230%);
-    }
+    animation-duration: 6s;
   }
 }
 
@@ -62,18 +53,7 @@
   .advertisement-title {
     font-size: 59px;
     line-height: 1.08;
-    animation-name: marquee-desk;
-    animation-duration: 20s;
-  }
-
-  @keyframes marquee-desk {
-    0% {
-      transform: translateX(0);
-    }
-
-    100% {
-      transform: translateX(-200%);
-    }
+    animation-duration: 8s;
   }
 }
 
