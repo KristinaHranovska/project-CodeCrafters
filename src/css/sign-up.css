@@ -48,7 +48,7 @@
 }
 
 .input-sign-up:focus {
-    border-color: var(--white);
+    border-color: var(--color-alfa);
 }
 
 input:focus::placeholder {
@@ -72,7 +72,7 @@ input:focus::placeholder {
 }
 
 .textarea-sign-up:focus {
-    border-color: var(--white);
+    border-color: var(--color-alfa);
 }
 
 textarea:focus::placeholder {
