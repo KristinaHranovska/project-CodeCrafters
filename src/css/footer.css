@@ -6,17 +6,17 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    border-top: 1px solid rgba(255, 255, 255, 0.20); 
-        }
+    border-top: 1px solid rgba(255, 255, 255, 0.20);
+}
 
 @media screen and (min-width: 320px) and (min-resolution: 192dpi) {
     .section-footer {
-    background-image: url(../img/bg-graphic/bg-footer_mob@2x.webp);
+        background-image: url(../img/bg-graphic/bg-footer_mob@2x.webp);
     }
 }
 
 .logo-contacts {
-    margin-bottom: 40px;   
+    margin-bottom: 40px;
 }
 
 .icon-logo {
@@ -29,43 +29,59 @@
     font-style: normal;
     line-height: 1.28;
 }
+
 .info-contacts-phone {
     text-transform: uppercase;
     margin-bottom: 10px;
 }
+
 .links-footer {
     display: flex;
     gap: 40px;
     margin-bottom: 75px;
 }
+
 .social-networks, .links-anchor-items {
     font-size: 14px;
     text-transform: uppercase;
     margin-bottom: 14px;
 }
+
 .social-networks:last-child, .links-anchor-items:last-child {
     margin-bottom: 0;
 }
+
 .social-networks:hover,
-.links-anchor-items:hover {
+.social-network:focus,
+.links-anchor-items:hover,
+.anchor-item:focus {
     color: var(--brown, #BEA69E)
 }
+
 .footer-block {
     margin-bottom: 40px;
 }
+
 .footer-form {
     display: flex;
     gap: 4px;
-    }
+}
+
+.mail-field {
+    width: 100%;
+}
+
 .mail-input {
     width: 100%;
     border-radius: 12px;
-    background: var(--white, #FFF);
+    background-color: var(--white, #FFF);
     padding: 20px 18px;
     color: var(--black, #121212);
     line-height: 1.25;
     border: none;
-    }
+    outline: transparent;
+}
+
 .mail-btn {
     padding: 18px 16px;
     border-radius: 12px;
@@ -75,50 +91,55 @@
     font-size: 20px;
     line-height: 1.2;
 }
+
 .text-footer {
     font-size: 12px;
     line-height: 1.33;
-    }
+}
+
 .bottom-text {
     display: flex;
     justify-content: space-between;
-   }
+}
 
 @media screen and (min-width: 768px) {
-.section-footer {
-    background-image: url(../img/bg-graphic/bg-footer_tab.webp);
-    padding-top: 50px;
-    padding-bottom: 25px;
-   }
-.logo-contacts {
-    margin-bottom: 0px;
+    .section-footer {
+        background-image: url(../img/bg-graphic/bg-footer_tab.webp);
+        padding-top: 50px;
+        padding-bottom: 25px;
+    }
+
+    .logo-contacts {
+        margin-bottom: 0px;
+    }
+
+    .footer-block {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 74px;
+    }
+
+    .footer-form {
+        gap: 8px;
+    }
+
+    .text-footer {
+        font-size: 14px;
+        line-height: 1.29;
+    }
+
+    .icon-logo {
+        width: 123px;
+        height: 16px;
+    }
+
+    .links-footer {
+        gap: 25px;
+        margin-bottom: 0;
+    }
+
 }
 
-.footer-block {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 74px;
-}
-.footer-form {
-    gap: 8px;
-}
-
-.text-footer {
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 1.29;
-}
-.icon-logo {
-    width: 123px;
-    height: 16px;
-}
-
-.links-footer {
-    gap: 25px;
-    margin-bottom: 0;
-}
-
-}
 @media screen and (min-width: 768px) and (min-resolution: 192dpi) {
     .section-footer {
         background-image: url(../img/bg-graphic/bg-footer_tab@2x.webp);
@@ -128,38 +149,37 @@
 @media screen and (min-width: 1280px) {
     .section-footer {
         background-image: url(../img/bg-graphic/bg-footer_1280.webp);
-       }
-.footer-block {
-    gap: 0;
-    margin-bottom: 50px;
-}
-.privacy-policy {
-    margin-right: 773px;
-}
+    }
 
-.footer-form {
-    gap: 16px;
-} 
+    .footer-block {
+        gap: 0;
+        margin-bottom: 50px;
+    }
+
+    .footer-form {
+        gap: 16px;
+    }
 }
 
 @media screen and (min-width: 1280px) and (min-resolution: 192dpi) {
     .section-footer {
         background-image: url(../img/bg-graphic/bg-footer_1280@2x.webp);
     }
-    
+
 }
 
 @media screen and (min-width: 1440px) {
-.section-footer {
-    background-image: url(../img/bg-graphic/bg-footer_1440.webp);
-    padding-top: 50px;
-    padding-bottom: 25px;
-    }    
-    
-.links-footer {
-    gap: 100px;
+    .section-footer {
+        background-image: url(../img/bg-graphic/bg-footer_1440.webp);
+        padding-top: 50px;
+        padding-bottom: 25px;
+    }
+
+    .links-footer {
+        gap: 100px;
+    }
 }
-}
+
 @media screen and (min-width: 1400px) and (min-resolution: 192dpi) {
     .section-footer {
         background-image: url(../img/bg-graphic/bg-footer_1440@2x.webp);
