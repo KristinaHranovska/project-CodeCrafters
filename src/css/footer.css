@@ -1,3 +1,7 @@
+.section.section-reviews {
+    padding-bottom: 80px;
+}
+
 .section-footer {
     display: block;
     padding-top: 40px;
@@ -111,6 +115,10 @@
 }
 
 @media screen and (min-width: 768px) {
+    .section.section-reviews {
+        padding-bottom: 100px;
+    }
+
     .section-footer {
         background-image: url(../img/bg-graphic/bg-footer_tab.webp);
         padding-top: 50px;
@@ -155,6 +163,10 @@
 }
 
 @media screen and (min-width: 1280px) {
+    .section.section-reviews {
+        padding-bottom: 150px;
+    }
+
     .section-footer {
         background-image: url(../img/bg-graphic/bg-footer_1280.webp);
     }

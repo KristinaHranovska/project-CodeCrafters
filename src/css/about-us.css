@@ -1,3 +1,7 @@
+.section.section-about {
+  padding-top: 80px;
+}
+
 .general-title {
   font-size: 28px;
   line-height: 1.14;
@@ -31,11 +35,16 @@
 }
 
 @media only screen and (min-width: 768px) {
+  .section.section-about {
+    padding-top: 100px;
+  }
+
   .general-title {
     font-size: 48px;
     line-height: 1.12;
     margin-bottom: 50px;
   }
+
   .about-us-container {
     max-width: 704px;
   }
@@ -62,6 +71,10 @@
 }
 
 @media only screen and (min-width: 1280px) {
+  .section.section-about {
+    padding-top: 150px;
+  }
+
   .about-us-container {
     max-width: 1080px;
     display: inline-flex;
@@ -72,6 +85,7 @@
   .about-us-picture {
     margin: 0;
   }
+
   .about-us-paragraph {
     column-gap: 20px;
   }
@@ -87,9 +101,11 @@
     max-width: 1240px;
     gap: 50px;
   }
+
   .about-us-picture {
     margin: 0;
   }
+
   .about-us-paragraph {
     column-gap: 40px;
   }
