@@ -31,6 +31,14 @@ ol {
   border: 1px solid rgba(255, 255, 255, 0.2);
   background: linear-gradient(180deg, #060707 0%, #1d1d1d 100%);
   padding: 28px;
+
+  transition: border 500ms cubic-bezier(0.4, 0, 0.2, 1), transform 0.3s;
+}
+
+.list-item:hover,
+.list-item:focus {
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  transform: scale(1.05);
 }
 
 .container-our-courses {

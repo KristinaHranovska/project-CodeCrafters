@@ -85,11 +85,19 @@
 .mail-btn {
     padding: 18px 16px;
     border-radius: 12px;
-    background: var(--fill, #1d1d1d);
+    background-color: var(--fill, #1d1d1d);
     border: none;
     color: var(--white, #FFF);
     font-size: 20px;
     line-height: 1.2;
+
+    transition: background-color 500ms cubic-bezier(0.4, 0, 0.2, 1), color 500ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.mail-btn:hover,
+.mail-btn:focus {
+    background-color: var(--fill);
+    color: var(--brown);
 }
 
 .text-footer {
