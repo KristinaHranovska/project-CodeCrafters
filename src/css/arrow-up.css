@@ -1,0 +1,57 @@
+.up-btn {
+    display: none;
+}
+
+@media screen and (min-width: 1280px) {
+    .up-btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        position: fixed;
+        bottom: 30px;
+        right: 30px;
+        z-index: 1;
+
+        background-color: var(--white);
+        border-radius: 10px;
+
+        opacity: 0;
+        visibility: hidden;
+        transition: opacity .3s, visibility .3s;
+
+        padding: 15px;
+    }
+
+    .up-btn:hover {
+        background-color: var(--fill);
+        fill: var(--brown);
+    }
+
+    .up-btn.show {
+        opacity: 1;
+        visibility: visible;
+    }
+
+
+    .up-btn .icon-arrow-up {
+        animation: bounce 2s infinite alternate-reverse;
+        transform: rotate(0deg);
+        transform-origin: center;
+    }
+
+
+    @keyframes bounce {
+        0% {
+            transform: translateY(0) rotate(-90deg);
+        }
+
+        50% {
+            transform: translateY(-50%) rotate(-90deg);
+        }
+
+        100% {
+            transform: translateY(0) rotate(-90deg);
+        }
+    }
+}

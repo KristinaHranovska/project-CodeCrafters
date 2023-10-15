@@ -56,4 +56,28 @@ function activateNavLink() {
     });
 }
 
+// up arrow settings
+document.addEventListener('DOMContentLoaded', function () {
+    var upButton = document.querySelector('.up-btn');
 
+    upButton.addEventListener('click', function () {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+
+        document.body.classList.add('scrolling');
+    });
+
+    window.addEventListener('scroll', function () {
+        if (window.scrollY > 300) {
+            upButton.classList.add('show');
+        } else {
+            upButton.classList.remove('show');
+        }
+
+        if (document.body.classList.contains('scrolling') && window.scrollY === 0) {
+            document.body.classList.remove('scrolling');
+        }
+    });
+});
