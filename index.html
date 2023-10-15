@@ -26,7 +26,7 @@
   <div class="header-inner container">
     <nav class="header-nav">
       <a class="logo" href="./header.html">
-        <svg class="icon-logo" width="123" height="16">
+        <svg class="icon-logo" width="123" height="16" aria-label="logo icon">
           <use href="/project-CodeCrafters/assets/sprite-605f9467.svg#icon-logo"></use>
         </svg>
       </a>
@@ -50,14 +50,19 @@
       </ul>
 
       <div class="mobile-icons">
-        <a class="link-camera" href="#">
-          <svg class="svg-camera" width="16" height="16">
+        <a class="link-camera" href="#sign-up">
+          <svg
+            class="svg-camera"
+            width="16"
+            height="16"
+            aria-label="sign up icon"
+          >
             <use href="/project-CodeCrafters/assets/sprite-605f9467.svg#icon-sign-up"></use>
           </svg>
         </a>
 
         <a class="mobile-menu" href="#" data-mobile-open>
-          <svg class="svg-burger" width="32" height="22">
+          <svg class="svg-burger" width="32" height="22" aria-label="menu icon">
             <use href="/project-CodeCrafters/assets/sprite-605f9467.svg#icon-mobile-menu"></use>
           </svg>
         </a>
@@ -262,7 +267,7 @@
     <ol class="list">
       <li class="list-item">
         <a class="arrow" href="#sign-up">
-          <svg class="icon" width="20" height="20">
+          <svg class="icon" width="20" height="20" aria-label="sign up icon">
             <use href="/project-CodeCrafters/assets/sprite-605f9467.svg#icon-courses-arrow"></use>
           </svg>
         </a>
@@ -274,7 +279,7 @@
       </li>
       <li class="list-item">
         <a class="arrow" href="#sign-up">
-          <svg class="icon" width="20" height="20">
+          <svg class="icon" width="20" height="20" aria-label="sign up icon">
             <use href="/project-CodeCrafters/assets/sprite-605f9467.svg#icon-courses-arrow"></use>
           </svg>
         </a>
@@ -285,7 +290,7 @@
         </p>
       </li>
       <li class="list-item">
-        <a class="arrow" href="#sign-up">
+        <a class="arrow" href="#sign-up" aria-label="sign up icon">
           <svg class="icon" width="20" height="20">
             <use href="/project-CodeCrafters/assets/sprite-605f9467.svg#icon-courses-arrow"></use>
           </svg>
@@ -561,7 +566,7 @@
   </div>
 </section>
 
-    <a class="up-btn show" href="#home">
+    <a class="up-btn" href="#home">
   <svg class="icon-arrow-up" width="20" height="20">
     <use href="/project-CodeCrafters/assets/sprite-605f9467.svg#icon-hero-arrow"></use>
   </svg>
@@ -644,6 +649,7 @@
               type="email"
               placeholder="Enter your email"
               pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+              required
             />
           </label>
           <button class="mail-btn" type="submit">Go</button>
