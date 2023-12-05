@@ -1,7 +1,7 @@
 # Перший командний проєкт GoIT блоку HTML/CSS
-# Назва команди: project-CodeCrafters
+## Назва команди: project-CodeCrafters
 
-# Focus.Frame
+## **Focus.Frame**
 
 Лендінг курсів фотографії "Focus.Frame". Тут ви можете побачити список курсів, лекторів, відгуки і більше.
 
