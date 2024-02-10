@@ -32,7 +32,7 @@
 - HTML
 - CSS
 - JavaScript
-- Використано Vanilla App Template, npm, git, chatghtp, Figma
+- Використано Vanilla App Template, npm, git, ChatGTP, Figma
 
 ## Посилання
 
