@@ -12,7 +12,7 @@
 3. [@Mariia Sereda](https://github.com/MariiaSereda)  **(Our mentors section)**
 4. [@peychma](https://github.com/peychma) **(Sign up section)**
 5. [@Olena-Ignatenko](https://github.com/Olena-Ignatenko) **(Our courses section)**
-6. [@Maria Khaklenko](https://github.com/MariaKhaklenko) **(Footer section)**
+6. [@Maria Khalenko](https://github.com/MariaKhalenko) **(Footer section)**
 7. [@Sw1tlana](https://github.com/Sw1tlana) **(Reviews section)**
 8. [@MariaaSv](https://github.com/MariaaSv) **(Mobile menu)**
 9. [@CheChCke](https://github.com/CheChCke) **(Headre section)**
